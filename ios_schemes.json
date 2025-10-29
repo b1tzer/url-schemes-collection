@@ -1,0 +1,133 @@
+{
+  "iOS": [
+    {
+      "app_name": "设置",
+      "bundle_id": "com.apple.Preferences",
+      "scheme": "prefs://",
+      "description": "iOS 设置应用 URL Scheme",
+      "parameters": [
+        {
+          "param": "General",
+          "description": "通用设置"
+        },
+        {
+          "param": "Bluetooth",
+          "description": "蓝牙设置"
+        },
+        {
+          "param": "Cellular",
+          "description": "蜂窝移动网络设置"
+        },
+        {
+          "param": "Wi-Fi",
+          "description": "Wi-Fi设置"
+        },
+        {
+          "param": "Display & Brightness",
+          "description": "显示与亮度设置"
+        }
+      ],
+      "example": "prefs://General"
+    },
+    {
+      "app_name": "日历",
+      "bundle_id": "com.apple.mobilecal",
+      "scheme": "calshow://",
+      "description": "iOS 日历应用 URL Scheme",
+      "parameters": [
+        {
+          "param": "时间戳",
+          "description": "打开指定日期"
+        }
+      ],
+      "example": "calshow://1609459200"
+    },
+    {
+      "app_name": "地图",
+      "bundle_id": "com.apple.Maps",
+      "scheme": "maps://",
+      "description": "iOS 地图应用 URL Scheme",
+      "parameters": [
+        {
+          "param": "q=",
+          "description": "搜索位置"
+        },
+        {
+          "param": "ll=",
+          "description": "指定经纬度"
+        }
+      ],
+      "example": "maps://q=北京天安门"
+    },
+    {
+      "app_name": "照片",
+      "bundle_id": "com.apple.mobileslideshow",
+      "scheme": "photos-redirect://",
+      "description": "iOS 照片应用 URL Scheme",
+      "parameters": [],
+      "example": "photos-redirect://"
+    },
+    {
+      "app_name": "备忘录",
+      "bundle_id": "com.apple.mobilenotes",
+      "scheme": "mobilenotes://",
+      "description": "iOS 备忘录应用 URL Scheme",
+      "parameters": [
+        {
+          "param": "",
+          "description": "打开备忘录"
+        }
+      ],
+      "example": "mobilenotes://"
+    },
+    {
+      "app_name": "时钟",
+      "bundle_id": "com.apple.mobiletimer",
+      "scheme": "clock://",
+      "description": "iOS 时钟应用 URL Scheme",
+      "parameters": [
+        {
+          "param": "timer",
+          "description": "打开计时器"
+        },
+        {
+          "param": "alarm",
+          "description": "打开闹钟"
+        }
+      ],
+      "example": "clock://timer"
+    },
+    {
+      "app_name": "音乐",
+      "bundle_id": "com.apple.Music",
+      "scheme": "music://",
+      "description": "iOS 音乐应用 URL Scheme",
+      "parameters": [],
+      "example": "music://"
+    },
+    {
+      "app_name": "文件",
+      "bundle_id": "com.apple.DocumentsApp",
+      "scheme": "shareddocuments://",
+      "description": "iOS 文件应用 URL Scheme",
+      "parameters": [],
+      "example": "shareddocuments://"
+    },
+    {
+      "app_name": "相机",
+      "bundle_id": "com.apple.camera",
+      "scheme": "camera://",
+      "description": "iOS 相机应用 URL Scheme",
+      "parameters": [],
+      "example": "camera://"
+    },
+    {
+      "app_name": "健康",
+      "bundle_id": "com.apple.Health",
+      "scheme": "x-apple-health://",
+      "description": "iOS 健康应用 URL Scheme",
+      "parameters": [],
+      "example": "x-apple-health://"
+    }
+  ]
+}

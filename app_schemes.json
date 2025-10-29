@@ -1,0 +1,256 @@
+{
+  "apps": [
+    {
+      "app_name": "微信",
+      "ios_bundle_id": "com.tencent.xin",
+      "android_package_name": "com.tencent.mm",
+      "scheme": "weixin://",
+      "description": "微信官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "dl/",
+          "description": "打开指定页面"
+        },
+        {
+          "param": "dl/moments",
+          "description": "打开朋友圈"
+        },
+        {
+          "param": "dl/scan",
+          "description": "打开扫一扫"
+        },
+        {
+          "param": "dl/pay",
+          "description": "打开支付页面"
+        }
+      ],
+      "example": "weixin://dl/moments"
+    },
+    {
+      "app_name": "QQ",
+      "ios_bundle_id": "com.tencent.mqq",
+      "android_package_name": "com.tencent.mobileqq",
+      "scheme": "mqq://",
+      "description": "QQ官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "im/chat",
+          "description": "打开聊天界面"
+        },
+        {
+          "param": "profile/",
+          "description": "查看个人资料"
+        },
+        {
+          "param": "scanqrcode",
+          "description": "打开扫一扫"
+        }
+      ],
+      "example": "mqq://im/chat?chat_type=wpa&uin=12345678"
+    },
+    {
+      "app_name": "支付宝",
+      "ios_bundle_id": "com.alipay.iphoneclient",
+      "android_package_name": "com.eg.android.AlipayGphone",
+      "scheme": "alipay://",
+      "description": "支付宝官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "platformapi/startapp",
+          "description": "启动应用"
+        },
+        {
+          "param": "pay",
+          "description": "支付页面"
+        },
+        {
+          "param": "platformapi/startapp?appId=09999988",
+          "description": "打开扫一扫"
+        }
+      ],
+      "example": "alipay://platformapi/startapp"
+    },
+    {
+      "app_name": "微博",
+      "ios_bundle_id": "com.sina.weibo",
+      "android_package_name": "com.sina.weibo",
+      "scheme": "sinaweibo://",
+      "description": "微博官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "userinfo?uid=",
+          "description": "查看用户主页"
+        },
+        {
+          "param": "qrcode",
+          "description": "扫一扫"
+        },
+        {
+          "param": "detail?mblogid=",
+          "description": "查看微博详情"
+        }
+      ],
+      "example": "sinaweibo://userinfo?uid=123456789"
+    },
+    {
+      "app_name": "知乎",
+      "ios_bundle_id": "com.zhihu.ios",
+      "android_package_name": "com.zhihu.android",
+      "scheme": "zhihu://",
+      "description": "知乎官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "people/",
+          "description": "查看用户主页"
+        },
+        {
+          "param": "question/",
+          "description": "查看问题详情"
+        },
+        {
+          "param": "topic/",
+          "description": "查看话题"
+        }
+      ],
+      "example": "zhihu://question/123456"
+    },
+    {
+      "app_name": "美团",
+      "ios_bundle_id": "com.sankuai.meituan",
+      "android_package_name": "com.sankuai.meituan",
+      "scheme": "meituan://",
+      "description": "美团官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "shopdetail?id=",
+          "description": "查看商家详情"
+        },
+        {
+          "param": "search",
+          "description": "搜索页面"
+        }
+      ],
+      "example": "meituan://shopdetail?id=1234567"
+    },
+    {
+      "app_name": "滴滴打车",
+      "ios_bundle_id": "com.sdu.didi.psnger",
+      "android_package_name": "com.sdu.didi.psnger",
+      "scheme": "diditaxi://",
+      "description": "滴滴打车官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "main",
+          "description": "打开主页"
+        },
+        {
+          "param": "calltaxi",
+          "description": "打车页面"
+        }
+      ],
+      "example": "diditaxi://main"
+    },
+    {
+      "app_name": "抖音",
+      "ios_bundle_id": "com.ss.iphone.ugc.Aweme",
+      "android_package_name": "com.ss.android.ugc.aweme",
+      "scheme": "douyin://",
+      "description": "抖音官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "user/",
+          "description": "查看用户主页"
+        },
+        {
+          "param": "video/",
+          "description": "查看视频"
+        },
+        {
+          "param": "search/",
+          "description": "搜索页面"
+        }
+      ],
+      "example": "douyin://user/MS4wLjABAAAABBBBBBBBBBBBBBBBBBBB"
+    },
+    {
+      "app_name": "淘宝",
+      "ios_bundle_id": "com.taobao.taobao",
+      "android_package_name": "com.taobao.taobao",
+      "scheme": "taobao://",
+      "description": "淘宝官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "item?id=",
+          "description": "查看商品"
+        },
+        {
+          "param": "search?q=",
+          "description": "搜索商品"
+        },
+        {
+          "param": "shop/view?id=",
+          "description": "查看店铺"
+        }
+      ],
+      "example": "taobao://item?id=123456789"
+    },
+    {
+      "app_name": "京东",
+      "ios_bundle_id": "com.jingdong.app.mall",
+      "android_package_name": "com.jingdong.app.mall",
+      "scheme": "openapp.jdmobile://",
+      "description": "京东官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "virtual?params=",
+          "description": "打开商品页面"
+        },
+        {
+          "param": "page/home",
+          "description": "打开首页"
+        }
+      ],
+      "example": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"productDetail\",\"skuId\":\"1000012345\"}"
+    },
+    {
+      "app_name": "百度",
+      "ios_bundle_id": "com.baidu.BaiduMap",
+      "android_package_name": "com.baidu.BaiduMap",
+      "scheme": "baidumap://",
+      "description": "百度地图官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "map/direction",
+          "description": "导航功能"
+        },
+        {
+          "param": "map/geocoder",
+          "description": "地理编码"
+        }
+      ],
+      "example": "baidumap://map/direction?origin=我的位置&destination=北京天安门"
+    },
+    {
+      "app_name": "哔哩哔哩",
+      "ios_bundle_id": "com.bilibili.app.in",
+      "android_package_name": "tv.danmaku.bili",
+      "scheme": "bilibili://",
+      "description": "哔哩哔哩官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "video/",
+          "description": "播放视频"
+        },
+        {
+          "param": "user/",
+          "description": "查看用户主页"
+        },
+        {
+          "param": "search",
+          "description": "搜索页面"
+        }
+      ],
+      "example": "bilibili://video/123456789"
+    }
+  ]
+}

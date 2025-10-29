@@ -1,0 +1,134 @@
+{
+  "android": [
+    {
+      "app_name": "设置",
+      "package_name": "com.android.settings",
+      "scheme": "android.settings.",
+      "description": "Android 设置应用 URL Scheme",
+      "parameters": [
+        {
+          "param": "BLUETOOTH_SETTINGS",
+          "description": "蓝牙设置"
+        },
+        {
+          "param": "WIFI_SETTINGS",
+          "description": "Wi-Fi设置"
+        },
+        {
+          "param": "LOCATION_SOURCE_SETTINGS",
+          "description": "位置设置"
+        },
+        {
+          "param": "DISPLAY_SETTINGS",
+          "description": "显示设置"
+        },
+        {
+          "param": "APPLICATION_SETTINGS",
+          "description": "应用设置"
+        }
+      ],
+      "example": "android.settings.BLUETOOTH_SETTINGS"
+    },
+    {
+      "app_name": "拨号",
+      "package_name": "com.android.dialer",
+      "scheme": "tel://",
+      "description": "Android 拨号应用 URL Scheme",
+      "parameters": [
+        {
+          "param": "电话号码",
+          "description": "拨打指定电话"
+        }
+      ],
+      "example": "tel://10086"
+    },
+    {
+      "app_name": "短信",
+      "package_name": "com.android.mms",
+      "scheme": "sms://",
+      "description": "Android 短信应用 URL Scheme",
+      "parameters": [
+        {
+          "param": "电话号码",
+          "description": "发送短信给指定号码"
+        }
+      ],
+      "example": "sms://10086"
+    },
+    {
+      "app_name": "地图",
+      "package_name": "com.google.android.apps.maps",
+      "scheme": "geo:",
+      "description": "Android 地图应用 URL Scheme",
+      "parameters": [
+        {
+          "param": "纬度,经度",
+          "description": "显示指定位置"
+        },
+        {
+          "param": "?q=",
+          "description": "搜索位置"
+        }
+      ],
+      "example": "geo:0,0?q=北京天安门"
+    },
+    {
+      "app_name": "浏览器",
+      "package_name": "com.android.chrome",
+      "scheme": "googlechrome://",
+      "description": "Android Chrome浏览器 URL Scheme",
+      "parameters": [
+        {
+          "param": "open-url?url=",
+          "description": "打开指定URL"
+        }
+      ],
+      "example": "googlechrome://open-url?url=https://www.google.com"
+    },
+    {
+      "app_name": "日历",
+      "package_name": "com.google.android.calendar",
+      "scheme": "content://com.android.calendar/events",
+      "description": "Android 日历应用 URL Scheme",
+      "parameters": [],
+      "example": "content://com.android.calendar/events"
+    },
+    {
+      "app_name": "文件管理器",
+      "package_name": "com.android.documentsui",
+      "scheme": "content://com.android.documentsui",
+      "description": "Android 文件管理器 URL Scheme",
+      "parameters": [],
+      "example": "content://com.android.documentsui"
+    },
+    {
+      "app_name": "相机",
+      "package_name": "com.android.camera2",
+      "scheme": "camera://",
+      "description": "Android 相机应用 URL Scheme",
+      "parameters": [],
+      "example": "camera://"
+    },
+    {
+      "app_name": "图库",
+      "package_name": "com.android.gallery3d",
+      "scheme": "gallery://",
+      "description": "Android 图库应用 URL Scheme",
+      "parameters": [],
+      "example": "gallery://"
+    },
+    {
+      "app_name": "设置-应用详情",
+      "package_name": "com.android.settings",
+      "scheme": "package:",
+      "description": "Android 应用详情页 URL Scheme",
+      "parameters": [
+        {
+          "param": "包名",
+          "description": "打开指定应用的设置页面"
+        }
+      ],
+      "example": "package:com.tencent.mm"
+    }
+  ]
+}
