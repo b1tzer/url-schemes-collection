@@ -1,5 +1,5 @@
 {
-  "android": [
+  "android_system": [
     {
       "app_name": "设置",
       "package_name": "com.android.settings",
@@ -129,6 +129,86 @@
         }
       ],
       "example": "package:com.tencent.mm"
+    },
+    {
+      "app_name": "联系人",
+      "package_name": "com.android.contacts",
+      "scheme": "content://com.android.contacts/contacts",
+      "description": "Android 联系人应用 URL Scheme",
+      "parameters": [],
+      "example": "content://com.android.contacts/contacts"
+    },
+    {
+      "app_name": "图库",
+      "package_name": "com.android.gallery3d",
+      "scheme": "content://media/external/images/media",
+      "description": "Android 图库应用 URL Scheme",
+      "parameters": [],
+      "example": "content://media/external/images/media"
+    },
+    {
+      "app_name": "计算器",
+      "package_name": "com.android.calculator2",
+      "scheme": "calc://",
+      "description": "Android 计算器应用 URL Scheme",
+      "parameters": [],
+      "example": "calc://"
+    },
+    {
+      "app_name": "录音机",
+      "package_name": "com.android.soundrecorder",
+      "scheme": "content://media/external/audio/media",
+      "description": "Android 录音机应用 URL Scheme",
+      "parameters": [],
+      "example": "content://media/external/audio/media"
+    },
+    {
+      "app_name": "时钟",
+      "package_name": "com.android.deskclock",
+      "scheme": "content://com.android.deskclock",
+      "description": "Android 时钟应用 URL Scheme",
+      "parameters": [],
+      "example": "content://com.android.deskclock"
+    },
+    {
+      "app_name": "下载管理器",
+      "package_name": "com.android.providers.downloads",
+      "scheme": "content://downloads/all_downloads",
+      "description": "Android 下载管理器 URL Scheme",
+      "parameters": [],
+      "example": "content://downloads/all_downloads"
+    },
+    {
+      "app_name": "NFC设置",
+      "package_name": "com.android.settings",
+      "scheme": "android.settings.NFC_SETTINGS",
+      "description": "Android NFC设置 URL Scheme",
+      "parameters": [],
+      "example": "android.settings.NFC_SETTINGS"
+    },
+    {
+      "app_name": "电池设置",
+      "package_name": "com.android.settings",
+      "scheme": "android.settings.BATTERY_SAVER_SETTINGS",
+      "description": "Android 电池设置 URL Scheme",
+      "parameters": [],
+      "example": "android.settings.BATTERY_SAVER_SETTINGS"
+    },
+    {
+      "app_name": "存储设置",
+      "package_name": "com.android.settings",
+      "scheme": "android.settings.INTERNAL_STORAGE_SETTINGS",
+      "description": "Android 存储设置 URL Scheme",
+      "parameters": [],
+      "example": "android.settings.INTERNAL_STORAGE_SETTINGS"
+    },
+    {
+      "app_name": "开发者选项",
+      "package_name": "com.android.settings",
+      "scheme": "android.settings.APPLICATION_DEVELOPMENT_SETTINGS",
+      "description": "Android 开发者选项 URL Scheme",
+      "parameters": [],
+      "example": "android.settings.APPLICATION_DEVELOPMENT_SETTINGS"
     }
   ]
 }

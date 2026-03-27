@@ -1,5 +1,5 @@
 {
-  "apps": [
+  "common_apps": [
     {
       "app_name": "微信",
       "ios_bundle_id": "com.tencent.xin",
@@ -251,6 +251,218 @@
         }
       ],
       "example": "bilibili://video/123456789"
+    },
+    {
+      "app_name": "钉钉",
+      "ios_bundle_id": "com.laiwang.DingTalk",
+      "android_package_name": "com.alibaba.android.rimet",
+      "scheme": "dingtalk://",
+      "description": "钉钉官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "dingtalk://page/chat",
+          "description": "打开聊天界面"
+        },
+        {
+          "param": "dingtalk://page/workbench",
+          "description": "打开工作台"
+        },
+        {
+          "param": "dingtalk://page/contact",
+          "description": "打开通讯录"
+        }
+      ],
+      "example": "dingtalk://page/chat"
+    },
+    {
+      "app_name": "企业微信",
+      "ios_bundle_id": "com.tencent.wework",
+      "android_package_name": "com.tencent.wework",
+      "scheme": "wxwork://",
+      "description": "企业微信官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "chat",
+          "description": "打开聊天界面"
+        },
+        {
+          "param": "main",
+          "description": "打开主页面"
+        },
+        {
+          "param": "contact",
+          "description": "打开通讯录"
+        }
+      ],
+      "example": "wxwork://chat"
+    },
+    {
+      "app_name": "飞书",
+      "ios_bundle_id": "com.bytedance.lark",
+      "android_package_name": "com.ss.android.lark",
+      "scheme": "lark://",
+      "description": "飞书官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "im/chat",
+          "description": "打开聊天界面"
+        },
+        {
+          "param": "calendar",
+          "description": "打开日历"
+        },
+        {
+          "param": "doc",
+          "description": "打开文档"
+        }
+      ],
+      "example": "lark://im/chat"
+    },
+    {
+      "app_name": "小红书",
+      "ios_bundle_id": "com.xiaohongshu",
+      "android_package_name": "com.xingin.xhs",
+      "scheme": "xiaohongshu://",
+      "description": "小红书官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "user/profile/",
+          "description": "查看用户主页"
+        },
+        {
+          "param": "note/",
+          "description": "查看笔记详情"
+        },
+        {
+          "param": "discovery",
+          "description": "打开发现页"
+        }
+      ],
+      "example": "xiaohongshu://user/profile/123456789"
+    },
+    {
+      "app_name": "拼多多",
+      "ios_bundle_id": "com.xiaohongshu",
+      "android_package_name": "com.xiaohongshu",
+      "scheme": "pinduoduo://",
+      "description": "拼多多官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "goods_detail?id=",
+          "description": "查看商品详情"
+        },
+        {
+          "param": "search_result?keyword=",
+          "description": "搜索商品"
+        },
+        {
+          "param": "home",
+          "description": "打开首页"
+        }
+      ],
+      "example": "pinduoduo://goods_detail?id=123456789"
+    },
+    {
+      "app_name": "快手",
+      "ios_bundle_id": "com.kuaishou.nebula",
+      "android_package_name": "com.kuaishou.nebula",
+      "scheme": "kwai://",
+      "description": "快手官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "profile/",
+          "description": "查看用户主页"
+        },
+        {
+          "param": "video/",
+          "description": "查看视频"
+        },
+        {
+          "param": "discover",
+          "description": "打开发现页"
+        }
+      ],
+      "example": "kwai://profile/123456789"
+    },
+    {
+      "app_name": "高德地图",
+      "ios_bundle_id": "com.autonavi.minimap",
+      "android_package_name": "com.autonavi.minimap",
+      "scheme": "iosamap://",
+      "description": "高德地图官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "path?sourceApplication=applicationName&sid=&slat=&slon=&sname=&dlat=&dlon=&dname=&dev=0&t=0",
+          "description": "路径规划"
+        },
+        {
+          "param": "poi?sourceApplication=applicationName&keywords=",
+          "description": "搜索地点"
+        }
+      ],
+      "example": "iosamap://path?sourceApplication=myapp&slat=39.908823&slon=116.397470&sname=起点&dlat=39.911041&dlon=116.413587&dname=终点&dev=0&t=0"
+    },
+    {
+      "app_name": "腾讯地图",
+      "ios_bundle_id": "com.tencent.map",
+      "android_package_name": "com.tencent.map",
+      "scheme": "qqmap://",
+      "description": "腾讯地图官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "map/routeplan?type=drive&from=起点&fromcoord=起点坐标&to=终点&tocoord=终点坐标",
+          "description": "驾车路线规划"
+        },
+        {
+          "param": "map/geocoder?addr=",
+          "description": "地址解析"
+        }
+      ],
+      "example": "qqmap://map/routeplan?type=drive&from=北京&fromcoord=39.9042,116.4074&to=上海&tocoord=31.2304,121.4737"
+    },
+    {
+      "app_name": "网易云音乐",
+      "ios_bundle_id": "com.netease.cloudmusic",
+      "android_package_name": "com.netease.cloudmusic",
+      "scheme": "orpheus://",
+      "description": "网易云音乐官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "song?id=",
+          "description": "播放歌曲"
+        },
+        {
+          "param": "playlist?id=",
+          "description": "播放歌单"
+        },
+        {
+          "param": "radio?id=",
+          "description": "播放电台"
+        }
+      ],
+      "example": "orpheus://song?id=123456789"
+    },
+    {
+      "app_name": "QQ音乐",
+      "ios_bundle_id": "com.tencent.QQMusic",
+      "android_package_name": "com.tencent.qqmusic",
+      "scheme": "qqmusic://",
+      "description": "QQ音乐官方 URL Scheme",
+      "parameters": [
+        {
+          "param": "song/",
+          "description": "播放歌曲"
+        },
+        {
+          "param": "playlist/",
+          "description": "播放歌单"
+        },
+        {
+          "param": "radio/",
+          "description": "播放电台"
+        }
+      ],
+      "example": "qqmusic://song/123456789"
     }
   ]
 }

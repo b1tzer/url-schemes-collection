@@ -1,5 +1,5 @@
 {
-  "iOS": [
+  "ios_system": [
     {
       "app_name": "设置",
       "bundle_id": "com.apple.Preferences",
@@ -128,6 +128,123 @@
       "description": "iOS 健康应用 URL Scheme",
       "parameters": [],
       "example": "x-apple-health://"
+    },
+    {
+      "app_name": "Safari浏览器",
+      "bundle_id": "com.apple.mobilesafari",
+      "scheme": "x-web-search://",
+      "description": "iOS Safari浏览器 URL Scheme",
+      "parameters": [
+        {
+          "param": "?q=",
+          "description": "搜索关键词"
+        }
+      ],
+      "example": "x-web-search://?q=apple"
+    },
+    {
+      "app_name": "App Store",
+      "bundle_id": "com.apple.AppStore",
+      "scheme": "itms-apps://",
+      "description": "iOS App Store URL Scheme",
+      "parameters": [
+        {
+          "param": "itunes.apple.com/app/id",
+          "description": "打开指定应用页面"
+        },
+        {
+          "param": "search?term=",
+          "description": "搜索应用"
+        }
+      ],
+      "example": "itms-apps://itunes.apple.com/app/id123456789"
+    },
+    {
+      "app_name": "电话",
+      "bundle_id": "com.apple.mobilephone",
+      "scheme": "tel://",
+      "description": "iOS 电话应用 URL Scheme",
+      "parameters": [
+        {
+          "param": "电话号码",
+          "description": "拨打指定电话"
+        }
+      ],
+      "example": "tel://10086"
+    },
+    {
+      "app_name": "邮件",
+      "bundle_id": "com.apple.mobilemail",
+      "scheme": "mailto:",
+      "description": "iOS 邮件应用 URL Scheme",
+      "parameters": [
+        {
+          "param": "email@example.com",
+          "description": "发送邮件到指定地址"
+        },
+        {
+          "param": "?subject=&body=",
+          "description": "带主题和正文的邮件"
+        }
+      ],
+      "example": "mailto:test@example.com?subject=Hello&body=This is a test"
+    },
+    {
+      "app_name": "FaceTime",
+      "bundle_id": "com.apple.facetime",
+      "scheme": "facetime://",
+      "description": "iOS FaceTime URL Scheme",
+      "parameters": [
+        {
+          "param": "电话号码",
+          "description": "拨打FaceTime电话"
+        },
+        {
+          "param": "-audio",
+          "description": "音频通话"
+        }
+      ],
+      "example": "facetime://10086"
+    },
+    {
+      "app_name": "钱包",
+      "bundle_id": "com.apple.Passbook",
+      "scheme": "shoebox://",
+      "description": "iOS 钱包应用 URL Scheme",
+      "parameters": [],
+      "example": "shoebox://"
+    },
+    {
+      "app_name": "语音备忘录",
+      "bundle_id": "com.apple.VoiceMemos",
+      "scheme": "voicememos://",
+      "description": "iOS 语音备忘录 URL Scheme",
+      "parameters": [],
+      "example": "voicememos://"
+    },
+    {
+      "app_name": "计算器",
+      "bundle_id": "com.apple.calculator",
+      "scheme": "calc://",
+      "description": "iOS 计算器 URL Scheme",
+      "parameters": [],
+      "example": "calc://"
+    },
+    {
+      "app_name": "语音控制",
+      "bundle_id": "com.apple.VoiceControl",
+      "scheme": "voicecontrol://",
+      "description": "iOS 语音控制 URL Scheme",
+      "parameters": [],
+      "example": "voicecontrol://"
+    },
+    {
+      "app_name": "辅助功能",
+      "bundle_id": "com.apple.Accessibility",
+      "scheme": "x-apple-accessibility://",
+      "description": "iOS 辅助功能 URL Scheme",
+      "parameters": [],
+      "example": "x-apple-accessibility://"
     }
   ]
 }
